@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth font + selection vibes */
+::selection { background: rgba(34,197,94,0.25); color: #fff; }
+html, body, #__next { height: 100%; }
