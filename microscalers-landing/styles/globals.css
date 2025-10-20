@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* custom styles */
-::selection { background: rgba(34,197,94,0.25); color: #fff; }
-html, body, #__next { height: 100%; background-color: #000B0A; }
+/* baseline terminal styling */
+html, body {
+  height: 100%;
+  background-color: #000B0A;
+  color: #BFC6CA;
+  font-family: 'JetBrains Mono', monospace;
+}
+a {
+  color: #22C55E;
+  text-decoration: none;
+}
+a:hover {
+  color: #F97316;
+}
